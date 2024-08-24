@@ -11,7 +11,7 @@
 
 ```bash
 # 1.clone（仅初次）
-git inti
+git init
 git clone git@github.com:Achhhe/ToyDL.git
 cd ToyDL
 
