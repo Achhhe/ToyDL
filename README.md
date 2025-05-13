@@ -1,9 +1,9 @@
 # Toy DL Examples
-|   时间   |     工程      | 描述                                       |
-| :------: | :-----------: | ------------------------------------------ |
-| 20240706 | rnn-implement | 基于nn.Linear的RNN和LSTM自我实现           |
-| 20240824 | toy-diffusion | DDPM的简易训练和测试demo，以及DDIM加速采样 |
-|          |               |                                            |
+|   时间   |      工程      | 描述                                                         |
+| :------: | :------------: | ------------------------------------------------------------ |
+| 20240706 | rnn-implement  | 基于nn.Linear的RNN和LSTM自我实现                             |
+| 20240824 | toy-diffusion  | DDPM的简易训练和测试demo，以及DDIM加速采样                   |
+| 20250514 | struct-reparam | 三种常见的结构重参数：卷积BN合并、并行卷积合并、串行卷积合并 |
 
 
 
@@ -18,7 +18,7 @@ cd ToyDL
 # 2. 修改ToyDL内容
 
 # 3. 上传
-git add . #(.表示所有 )
+git add . #(.表示所有)
 git commit -m '更新'
 git push
 ```
