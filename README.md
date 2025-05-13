@@ -18,7 +18,7 @@ cd ToyDL
 # 2. 修改ToyDL内容
 
 # 3. 上传
-git add . #(.表示所有)
+git add . #(.表示所有 )
 git commit -m '更新'
 git push
 ```
