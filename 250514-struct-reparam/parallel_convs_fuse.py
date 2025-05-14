@@ -39,7 +39,7 @@ w_fused = w3 + w1 + w_id  # 合并三个卷积核的权重
 b_fused = b3 + b1 + b_id  # 合并偏置项
 
 # 创建融合后的卷积层
-conv_fused = nn.Conv2d(C, C, 3, padding=1, bias=True)
+conv_fused = nn.Conv2d(C, C, 3, padding=1, bias=True, groups=groups)
 conv_fused.weight.data, conv_fused.bias.data = w_fused, b_fused  # 加载融合参数
 y_fused = conv_fused(x)  # 直接通过融合后的卷积层计算
 
